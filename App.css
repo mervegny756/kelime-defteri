@@ -149,7 +149,7 @@ body {
   margin: 8px 0 22px;
 }
 
-form label {
+*form label {
   display: block;
   font-size: 13px;
   font-weight: 600;
@@ -178,7 +178,7 @@ form select:focus,
   box-shadow: 0 0 0 3px #9672df18;
 }
 
-form textarea {
+*form textarea {
   resize: vertical;
 }
 
@@ -316,7 +316,7 @@ form textarea {
   font-size: 13px;
 }
 
-footer {
+*footer {
   text-align: center;
   color: #928ca0;
   font-size: 12px;
