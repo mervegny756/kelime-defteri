@@ -4,8 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  css: {
-    // Lightning CSS yerine PostCSS motorunu kullanarak bu hatanın önüne geçiyoruz
-    transformer: 'postcss',
+  build: {
+    cssMinify: 'esbuild', // Lightning CSS yerine güvenli esbuild sıkıştırmasını kullanıyoruz
   },
 })
